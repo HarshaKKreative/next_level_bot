@@ -4,6 +4,29 @@
   margin-top: 2rem;
 }
 
+.SyntaxGenerator .list-items {
+    width: max-content;
+    padding-right: 0.7rem;
+    height:calc(800px);
+    overflow-y: scroll;
+}
+
+.SyntaxGenerator .list-items::-webkit-scrollbar {
+  background-color: transparent;
+  width: 6px;
+}
+
+.SyntaxGenerator .list-items::-webkit-scrollbar-thumb {
+  background: transparent;
+  border-radius: 10px;
+}
+
+.SyntaxGenerator .list-items:hover::-webkit-scrollbar-thumb {
+  background: rgb(202, 199, 199);
+  border-radius: 10px;
+}
+
+
 .SyntaxGenerator ul > li {
   width: 20vh;
   border: 2px solid black;
