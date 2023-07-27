@@ -4,11 +4,14 @@ import BrokerPlan from "./components/BrokerPlan/BrokerPlan";
 import ChartinkAlgo from "./components/ChartinkAlgo/ChartinkAlgo";
 import CopyTrade from "./components/CopyTrade/CopyTrade";
 import Dashboard from "./components/Dashboard/Dashboard";
+import FAQ from "./components/FAQ/Faq";
 import FakeManagement from "./components/FakeManagement/FakeManagement";
 import GlobalPosition from "./components/GlobalPosition/GlobalPosition";
+import IndicatorInvoices from "./components/IndicatorInvoices/IndicatorInvoices";
 import M2M from "./components/M2M(beta)/M2M";
 import Mt4_Mt5Plan from "./components/MT4&MT5Plan/MT4&MT5Plan";
 import MT4_MTWallet from "./components/MT4&MTWallet/MT4&MTWallet";
+import MyIndicatorAccess from "./components/MyIndicatorAccess/MyIndicatorAccess";
 import NavProfile from "./components/NavProfile/NavProfile";
 import NlbIndicator from "./components/NlbIndicator/NlbIndicator";
 import OrderTable from "./components/OrderTable/OrderTable";
@@ -16,10 +19,9 @@ import PaperTrading from "./components/PaperTrading/PaperTrading";
 import SamcoRealData from "./components/SamcoRealData/SamcoRealData";
 import SellYourIndicator from "./components/SellYourIndicator/SellYourIndicator";
 import SideNavBar from "./components/SideNavBar/SideNavBar";
+import SyntaxGenerator from "./components/SyntaxGenerator/SyntaxGenerator";
 import TradeLogs from "./components/TradeLogs/TradeLogs";
-import MyIndicatorAccess from "./components/MyIndicatorAccess/MyIndicatorAccess";
-import IndicatorInvoices from "./components/IndicatorInvoices/IndicatorInvoices";
-import FAQ from "./components/FAQ/Faq";
+
 function App() {
   return (
     <BrowserRouter>
@@ -91,10 +93,8 @@ function App() {
               path="/tool-and-help/syntax-generator"
               element={<IndicatorInvoices />}
             />
-            <Route
-              path="/faq"
-              element={<FAQ />}
-            />
+            <Route path="/faq" element={<FAQ />} />
+            <Route path="/syntax-generator" element={<SyntaxGenerator />} />
           </Routes>
         </div>
       </div>

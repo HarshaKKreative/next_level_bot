@@ -266,7 +266,7 @@ function SideNavBar() {
                 data-bs-parent="#nav-accordion"
               >
                 <div className="accordion-body ps-3">
-                  <Link>
+                  <Link to="/syntax-generator">
                     <h4 className="fs-6 mb-2  fw-normal  d-flex align-items-center  gap-2">
                       <BsBox size={"15px"} /> Syntax Generator
                     </h4>
@@ -297,6 +297,7 @@ function SideNavBar() {
               <AiOutlineQuestionCircle /> FAQ
             </h4>
           </Link>
+        
         </div>
       </nav>
     </section>

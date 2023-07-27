@@ -1,0 +1,22 @@
+.SyntaxGenerator {
+  width: 95%;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+
+.SyntaxGenerator ul > li {
+  width: 20vh;
+  border: 2px solid black;
+  margin-bottom: 1rem;
+  padding: 0.2rem 0;
+  padding-left: 0.5rem;
+  border-radius: 0.4rem;
+  transition: all 300ms ease;
+}
+
+.SyntaxGenerator ul > li:hover {
+  transform: scale(1.08);
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
