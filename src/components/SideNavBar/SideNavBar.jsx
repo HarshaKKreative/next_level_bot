@@ -266,27 +266,23 @@ function SideNavBar() {
                 data-bs-parent="#nav-accordion"
               >
                 <div className="accordion-body ps-3">
-                  <Link to="/syntax-generator">
+                  <Link to={"/syntax-generator"}>
                     <h4 className="fs-6 mb-2  fw-normal  d-flex align-items-center  gap-2">
                       <BsBox size={"15px"} /> Syntax Generator
                     </h4>
                   </Link>
-                  <Link>
+                  <Link to={"/broker-symbol"}>
                     <h4 className="fs-6 mb-2  fw-normal d-flex align-items-center gap-2">
                       <BiUpload size={"15px"} /> Broker Symbols
                     </h4>
                   </Link>
-                  <Link>
-                    <h4 className="fs-6 mb-2  fw-normal d-flex align-items-center gap-2">
-                      <BsCart size={"15px"} /> Resource
-                    </h4>
-                  </Link>
+             
                 </div>
               </div>
             </div>
           </div>
           <h6 className="small opacity-75 mb-4 mt-5">SUPPORT</h6>
-          <Link>
+          <Link to={"/contact-us"}>
             <h4 className="fs-6 mb-2 fw-normal  d-flex align-items-center  gap-2">
               <MdOutlineMailOutline /> Contact Us
             </h4>

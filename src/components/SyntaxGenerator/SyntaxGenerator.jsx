@@ -1,12 +1,12 @@
 import React from "react";
 import "./SyntaxGenerator.css";
+
 function SyntaxGenerator() {
-  
   return (
     <section className="SyntaxGenerator">
       <div className="list-items">
         <ul type="none">
-          <li onClick={() => fetch()}>5 Paisa</li>
+          <li>5 Paisa</li>
           <li>Aliceblue V2 Syntax</li>
           <li>Alpaca Syntax</li>
           <li>AnandRathi Syntax</li>

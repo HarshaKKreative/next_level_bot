@@ -67,7 +67,7 @@
 .side-navigation .active {
   background-color: #0a63f3;
   color: white !important;
-  box-shadow: 0 0 10px 1px rgba(103, 192, 240, 0.7);
+  box-shadow: 0 0 10px 1px rgba(22, 65, 238, 0.7);
 }
 
 @media (max-width: 1024px) {

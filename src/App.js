@@ -21,6 +21,8 @@ import SellYourIndicator from "./components/SellYourIndicator/SellYourIndicator"
 import SideNavBar from "./components/SideNavBar/SideNavBar";
 import SyntaxGenerator from "./components/SyntaxGenerator/SyntaxGenerator";
 import TradeLogs from "./components/TradeLogs/TradeLogs";
+import BrokerSymbol from "./components/BrokerSymbols/BrokerSymbol";
+import ContactUs from "./components/ContactUs/ContactUs";
 
 function App() {
   return (
@@ -95,6 +97,8 @@ function App() {
             />
             <Route path="/faq" element={<FAQ />} />
             <Route path="/syntax-generator" element={<SyntaxGenerator />} />
+            <Route path="/broker-symbol" element={<BrokerSymbol />} />
+            <Route path="/contact-us" element={<ContactUs />} />
           </Routes>
         </div>
       </div>
