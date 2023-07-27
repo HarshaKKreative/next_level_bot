@@ -8,7 +8,7 @@ function ContactUs() {
     <section className="ContactUs">
       <h3>Contact Us</h3>
       <p>Get in touch with us for any queries or suggestions.</p>
-      <div className="d-flex justify-content-around">
+      <div className="d-flex justify-content-around flex-wrap mt-5">
         <Card
           icon={<MdCallMissed size={"5rem"} />}
           info={"Give us Missed call to get the Details of Algo"}

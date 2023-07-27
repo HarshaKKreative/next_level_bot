@@ -99,6 +99,7 @@ function App() {
             <Route path="/syntax-generator" element={<SyntaxGenerator />} />
             <Route path="/broker-symbol" element={<BrokerSymbol />} />
             <Route path="/contact-us" element={<ContactUs />} />
+            
           </Routes>
         </div>
       </div>
